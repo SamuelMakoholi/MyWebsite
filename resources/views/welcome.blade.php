@@ -128,7 +128,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                        <img src="{{ $sectionTwo->icon }}"width="50px" color="blue" height="50px"></img>
+                        <img src="{{ $service->icon }}"width="50px" color="blue" height="50px"></img>
                             <h4 class="card-title mt-3">{{$service->name}}</h4>
                             <p class="card-text mt-3">{{$service->description}}
                             </p>

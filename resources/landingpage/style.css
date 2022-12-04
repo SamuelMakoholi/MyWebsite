@@ -136,17 +136,33 @@ body{
   display: inline-flex;
   }
 
+  .about ul li button{
+    width: 120px;
+    height: 40px;
+    padding-bottom: 14px;
+    background: #fff;
+    color: #0a45c2;
+    border: none;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+
   .about ul{
     position: relative;
     width: 100%;
     margin: 0;
-    background: #f1f0f4;
+    background: #e3def4;
     padding: 0;
     box-sizing: border-box;
     border-bottom: 2px solid #0a45c2;
     }
     .about ul li{
       list-style: none;
+      margin: 20px 0 40px;
       display: inline;
     }
     .about ul li a{
@@ -218,6 +234,10 @@ body{
 .servicesText:hover {
     border: 1px solid  #9ba6b9;
 }
+.logo-img path {
+  fill: rgb(38, 80, 235);
+}
+
 
 #pricing{
     width: 100%;
@@ -228,12 +248,17 @@ body{
 
 
 #pricing h2{
-  color: #155bd5;
-  font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  padding: 50px 0;
-  border-radius: 5px;
+  font-size: 20px;
+  border: solid;
+  width: 100px;
+  color: #0a45c2;
+  border: 1px solid #0a45c2;
+  border-radius: 20px;
+  padding-left: 5px;
   text-align: center;
+  margin-left: 600px;
+  margin-bottom: 20px;
+
 }
 .price-row{
   width: 90%;
@@ -388,3 +413,4 @@ body{
     cursor: pointer;
     transition: .4s ease;
 }
+

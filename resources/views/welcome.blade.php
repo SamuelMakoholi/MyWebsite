@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Welcome</title>
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        
 
         <!-- Scripts -->
         @vite(['resources/landingpage/style.css', 
@@ -128,7 +130,7 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                        <img src="{{ $service->icon }}"width="50px" color="blue" height="50px"></img>
+                        <img src="{{ $service->icon }}"width="50px" class="logo-img" height="50px"></img>
                             <h4 class="card-title mt-3">{{$service->name}}</h4>
                             <p class="card-text mt-3">{{$service->description}}
                             </p>
@@ -147,7 +149,7 @@
             <div class="price-col">
                 <p>Starter</p>
                <h5>{{$starter->title}}</h5>
-                <h3>${{$starter->amount}}<span>/month</span></h3>
+                <h3><sup style="font-size: 20px">$</sup>{{$starter->amount}}<span>/month</span></h3>
                 <button> Start Free Trial</button>
                 <ul>
                     <li>Crust justo audio</li>
@@ -161,7 +163,7 @@
             <div class="price-col">
                 <p id="exclusivetext">Exclusive</p>
                 <h5>{{$exclusive->title}}!</h5>
-                <h3><superscipt>${{$exclusive->amount}}</superscript> <span>/month</span></h3>
+                <h3><sup style="font-size: 20px">$</sup>{{$exclusive->amount}}<span>/month</span></h3>
                 <button id="exclusive"> Start Free Trial</button>
                 <ul>
                     <li>Crust justo audio</li>
@@ -174,7 +176,7 @@
             <div class="price-col">
                 <p>Premium</p>
                 <h5>{{$premium->title}}!</h5>
-                <h3>${{$premium->amount}}<span>/month</span></h3>
+                <h3><sup style="font-size: 20px">$</sup>{{$premium->amount}}<span>/month</span></h3>
                 <button> Start Free Trial</button>
                 <ul>
                     <li>Crust justo audio</li>
@@ -195,8 +197,6 @@
         </div>
       
     </section>
-
-
 
 
 

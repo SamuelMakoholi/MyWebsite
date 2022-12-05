@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('text_main');
             $table->string('text_secondary');
-            $table->string('img_url');
+            $table->string('image');
             $table->timestamps();
         });
     }

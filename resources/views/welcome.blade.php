@@ -79,7 +79,6 @@
     <div class="container">
         <div class="row">
         <div class="col">
-
             <img src="{{ $sectionTwo->abt_image }}" class="img-fluid" alt="Software Development">
         </div>
 

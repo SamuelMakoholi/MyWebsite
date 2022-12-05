@@ -25,11 +25,16 @@ and i have put the sql file of the databse in this folder named website_db.sql
 
 9. php artisan serve
 
+NB: To view the website , import the database first or add website content through the admin dashboad.
 
 
 
 
-Admin credidentials
+
+Admin credidentials.
+
+Login Url: http://127.0.0.1:8000/login
+
 
 username: samuelmakoh@gmail.com
 password: 00000000

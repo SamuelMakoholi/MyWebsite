@@ -23,8 +23,7 @@ class LandingPageController extends Controller
     public function index()
     {
         //
-        $data['sectionOne'] = 
-        SectionOne::orderBy('id', 'DESC')->first();
+        $data['sectionOne'] = SectionOne::orderBy('id', 'DESC')->first();
 
         $data['sectionTwo'] = SectionTwo::orderBy('id', 'DESC')->first();
 
